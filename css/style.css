@@ -94,7 +94,7 @@ color: black;
 display: flex;
 align-items: center;
 gap: 40px;
-
+padding: 24px 0;
 }
 
     
@@ -106,7 +106,7 @@ gap: 40px;
 .header-link {
 display: block;
 font-weight: 500;
-padding: 24px 0;
+
 color: var(--primary-txt-cl);
 
   
@@ -316,6 +316,7 @@ color: var(--primary-txt-cl);
 .wawd-list {
 display: flex;
 gap: 24px;
+margin-top: 72px;
  
 
 
@@ -384,8 +385,9 @@ margin-top: 72px;
 .team-item {
 
 
-
-
+}
+.team-img{
+    display: block;
 }
 
 .team-name {
@@ -401,6 +403,7 @@ color:var(--primary-txt-cl);
 
 }
 .team-container{
+    
     width: 264px;
     height: 380px;
    border:  #FFFFFF ;
@@ -409,10 +412,12 @@ color:var(--primary-txt-cl);
    border-radius: 0px 0px 4px 4px;
    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    
    
 }
 .team-description{
     padding: 32px 16px;
+    
 }
 
 .team-job {
@@ -426,6 +431,7 @@ justify-content: center;
 .footer {
 background-color: #2E2F42;
 padding-bottom: 100px;
+padding-top: 100px;
 
 
 }
@@ -548,7 +554,7 @@ background-color: var(--accent-bg-cl);
 
 
 .row-item {
-    width: 360px;
+    
     
     
 
@@ -576,6 +582,8 @@ background-color: var(--accent-bg-cl);
 
 .row-img {
    display: block;
+width: 360px;
+height: 300px;
    
 
 
